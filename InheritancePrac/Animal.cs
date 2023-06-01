@@ -10,6 +10,11 @@ namespace InheritancePrac32
 
         public Animal() { this.Age = 0; }
 
+        public Animal(int age)
+        {
+            this.Age = age;
+        }
+
         public void Eat()
         {
             Console.WriteLine("냠냠 먹습니다.");
@@ -19,6 +24,7 @@ namespace InheritancePrac32
         {
             Console.WriteLine("쿨쿨 잠을 잡니다.");
         }
+
         private void Private() { }
         protected void Protected() { }
         public void Public() { }

@@ -1,15 +1,23 @@
-﻿using InheritancePrac32;
-using System;
+﻿using System;
 
-namespace InheritancePrac
+namespace InheritancePrac32
 {
-    public class Cat:Animal
+    /// <summary>
+    /// 고양이 클래스
+    /// </summary>
+    public class Cat : Animal
     {
+        public Cat()
+        {
+        }
+
+        public Cat(int age) : base(age)
+        {
+        }
 
         public void Meow()
         {
-            Console.WriteLine("야옹");
+            Console.WriteLine("냥냥 웁니다.");
         }
-
     }
 }
