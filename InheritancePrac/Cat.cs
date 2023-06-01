@@ -6,17 +6,17 @@ namespace InheritancePrac
     {
         internal void Eat()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("냠냠");
         }
 
         internal void Meow()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("야옹");
         }
 
         internal void Sleep()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("쿠울쿨쿨");
         }
     }
 }

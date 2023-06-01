@@ -4,19 +4,24 @@ namespace InheritancePrac
 {
     internal class Dog
     {
+        public int Age { get;set;}
+        public String Color { get; set; }
+        
+        public Dog() { this.Age = 0; }
+
         internal void Bark()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("왈왈");
         }
 
         internal void Eat()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("냠냠");
         }
 
         internal void Sleep()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("쿨쿨");
         }
     }
 }
